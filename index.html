@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <style type="text/css" media="screen">
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+    	display: block;
+    }
+    body {
+    	line-height: 1;
+    }
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+    body {
+      height: 100%;
+      width: 100%;
+      font-size: 20px;
+    }
+    #bg {
+      top: 0;
+      left: 0;
+      width: 100%;
+      position: fixed;
+      height: 100%;
+      background-image: url(bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+    }
+    #container {
+      width: 70%;
+      margin: 100px 5% 0 25%;
+      text-align: center;
+      z-index: 10;
+      position: absolute;
+      top: 0;
+    }
+    h1 { 
+      font-size: 200%;
+      margin: 20px 0 40px 0;
+    }
+    h2 { 
+      font-size: 150%;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 30px 0;
+    }
+    h3 {
+      font-size: 125%;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 15px 0;
+    }
+    h1, h2, h3 {
+      font-family: "nouvelle-vague";
+      color: white;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2), 
+                   0 2px 3px rgba(0,0,0,0.1),
+                   0 3px 20px rgba(0,0,0,0.3);
+    }
+    
+    h2, h3, p {
+      font-family: adriane;
+    }
+    li em {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+    }
+    li em, p em {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    li.paiement {
+      font-size: 75%;
+      line-height: 120%;
+      margin: 10px 0 0 105px;
+    }
+    strong {
+      font-weight: bold;
+    }
+    ul.souper {
+      width: 50%;
+      text-align: left;
+      display: inline-block;
+      line-height: 150%;
+      font-size: 130%;
+    }
+    
+    p, ul.souper {
+      width: 60%;
+      display: inline-block;
+      background-color: rgba(0,0,0,0.5);
+      border: 1px solid rgba(0,0,0,0.6);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 30px 0;
+    }
+    p {
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2), 
+                   0 2px 3px rgba(0,0,0,0.1),
+                   0 3px 20px rgba(0,0,0,0.3);
+      line-height: 140%;
+    }
+    a {
+      color: white;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #ddd;
+      text-decoration: none;
+    }
+    p.alcool, p.cadeaux {
+      font-size: 90%;
+      margin-top: 15px;
+    }
+    
+    @media(max-width:800px) {
+      #container {
+        width: 92%;
+        margin: 100px 4%;
+      }
+      p, ul.souper {
+        width: 90%;
+      }
+      body {
+        font-size: 16px;
+      }
+    }
+    </style>
+    <script type="text/javascript" src="//use.typekit.net/uhy3kyy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <div id="bg"></div>
+    <div id="container">
+      <h1 id="">Mariage Alexandra &amp; Olivier</h1>
+      <p class="invitation">
+        Nous avons le plaisir de vous inviter à partager notre bonheur lorsque nous échangerons nos voeux le samedi 19 juillet à <a href="http://www.lacacheamaxime.com">la Cache à Maxime</a> (<a href="https://www.google.ca/maps/place/Restaurant+La+Cache+á+Maxime/@46.506545,-71.055134,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xf20fa61037331a26">carte</a>) à partir de 15h.
+      </p>
+      
+      <h2>Souper</h2>
+      <ul class="souper">
+        <li><em>25$</em> par personne</li>
+        <li><em>13$</em> par enfant de 5 à 12 ans</li>
+        <li><em>Gratuit</em> pour les 0 à 4 ans</li>
+        <li class="paiement">
+          Vous pouvez envoyer le paiement chez Olivier et Alex, soit au 25, rue Curé-pelletier, app. 7 G6V 2J8, Lévis, avant le 5 juillet.
+        </li>
+      </ul>
+      
+      <h2>Chalet</h2>
+      <p class="chalet">
+        Si vous restez avec nous durant cette belle soirée et que vous louez un chalet sur le site, le repas <strong>sera gratuit pour vous</strong>!<br>
+        <em>450$</em> par chalet logeant 6 personnes
+      </p>
+      
+      <h2>Présence</h2>
+      <p>Confirmez-nous votre présence (nombre de personne, chalet ou non) par <a href="mailto:alexandrabarrasmercier@hotmail.com">email</a>, Facebook ou téléphone (418-830-3386)!</p>
+      
+      
+      <h3>Alcool</h3>
+      <p class="alcool">
+        La Cache à Maxime est un vignoble, l'alcool doit donc être acheté sur place (un espace bar sera également disponible). Si vous apportez votre propre alcool, vous avez le droit de la consomer dans les chalets seulement (et non dans les stationnements ou dans l'établissement).
+      </p>
+      
+      <h3>Cadeaux</h3>
+      <p class="cadeaux">
+        Si vous le désirez, il y aura une corbeille sur place pour les cadeaux.
+      </p>
+    </div>
+  </body>
+</html>
